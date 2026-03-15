@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <main>
+        <form name="Formulario" method="POST" action="/send/" >
+            Tareas:
+            <input  name="Tareas" placeholder="Ingrese su tareas">
+            <br>
+            Fecha y hora:
+            <input type="datetime-local" value="2026-03-23T11:00" min="2026-03-01T11:00" max="2026-12-31T11:00" step="3600">
+            <br>
+            Notas:
+            <textarea>
+                
+            </textarea>
+            <br>
+            <input type="submit" >
+        </form>
+    </main>
+</body>
+</html>
