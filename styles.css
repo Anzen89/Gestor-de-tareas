@@ -20,9 +20,11 @@ body{
 
 .plaza{
     background-color:#787474;
+    /*paddinh para separar y darle una mejor posición*/
     padding: 15px;
     border-radius: 10px;
     height:auto;
+    /*Es el margen que le damos a nuestra estrutura*/
     margin: 50px auto ;
     max-width: 500px;
     box-shadow: 0px 0px 10px 7px #c7baba;
@@ -33,6 +35,7 @@ body{
     width: 100%;
     margin: 3px;
     border-radius: 10px;
+    /*box para darle esas sombras*/
     box-shadow: 0px 0px 7px 5px #000000;
 }
 
