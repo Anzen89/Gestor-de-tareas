@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     outline: none;
+    
 }
 
 body{
@@ -11,6 +12,28 @@ body{
     background-color:#F5F1E8;
     color:#2B2B2B;
     line-height:1.6;
+    background:linear-gradient(rgb(0,0,0,0.5)),rgb((0,0,0,0.5)), url(img/fondo,1.avif);
+    background-size:cover ;
+    background-position: center;
+
+}
+
+.plaza{
+    background-color:#787474;
+    padding: 15px;
+    border-radius: 10px;
+    height:auto;
+    margin: 50px auto ;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px 7px #c7baba;
+
+}
+.plaza img{
+    height: auto;
+    width: 100%;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 5px #000000;
 }
 
 form{
@@ -22,6 +45,7 @@ form{
     border: 2px solid black;
     text-transform: uppercase;
 
+
 }
 form input{
     border: 2px solid black;
@@ -29,6 +53,7 @@ form input{
     margin: auto;
     height: 50px;
     margin-bottom: 15px;
+    border-color: #377658;
 
 }
 

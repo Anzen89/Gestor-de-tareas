@@ -9,20 +9,31 @@
 </head>
 <body>
     <main>
+        <article class="plaza">
+            <img src="img/plaza_morropon.jpg" >
+            <h2>Morropon Cuna del Tondero y Cumanana</h2>
+            <p>Plaza de Morropón - Plaza de Armas</p>
+        </article>
+
+        <article class="formulario">
         <form name="Formulario" method="POST" action="https://formspree.io/f/mvzwvprb"> <!--action="/send/"-->
-            Tareas:
+            <h4>Tarea 1:</h4>
+            <input name="Tareas" placeholder="Ingrese su tareas" required>
+            <h4>Tarea 2:</h4> 
+            <input name="Tareas" placeholder="Ingrese su tareas" required>
+            <h4>Tarea 3:</h4>    
             <input name="Tareas" placeholder="Ingrese su tareas" required>
             <br>
-            Fecha y hora:
+            <h4>Fecha y hora:</h4>
             <input name="Fecha" type="datetime-local" value="2026-03-23T11:00" min="2026-03-01T11:00" max="2026-12-31T11:00" step="3600" required>
             <br>
-            Notas:
-            <textarea name="comentario" placeholder="Ingrese su comentario" required>
-                
+            <h4>Notas:</h4>
+            <textarea name="comentario" placeholder="Ingrese su comentario" required>     
             </textarea>
             <br>
             <input type="submit" >
         </form>
+        </article>
     </main>
 </body>
 </html>
